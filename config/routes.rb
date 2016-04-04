@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 
   root 'zadankai#home'
+  resources :users
 
   devise_for :users, :controllers => {
     :sessions      => "users/sessions",
