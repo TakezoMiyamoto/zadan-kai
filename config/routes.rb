@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 
   root 'zadankai#home'
+  get 'zadankai/about'
+  get 'users/index'
   get 'users/show'
 
 
